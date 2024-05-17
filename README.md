@@ -27,6 +27,9 @@ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisc
 
 Still to do:
 - infoscreen transition when using tmdbhelper widgets
+-- actor credits action
+-- other actions (inc play episode with tmdb helper)
+-- tmdb helper for play button on infoscreen?
 - autoscroll bar
 - multiart on autoscroll
 - hide prefer landscape for billboard widgets
