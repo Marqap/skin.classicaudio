@@ -49,6 +49,7 @@
 				<focusedlayout>
 					<control type="button">
 						<visible allowhiddenfocus="true">false</visible>
+						<onfocus condition="!String.IsEmpty(Container($PARAM[id]).ListItem.Title)">RunScript(script.copacetic.helper,action=url_encode,name=URL_Encoded_Title,string='"$INFO[Container($PARAM[id]).ListItem.Title]"')</onfocus>
 						<onfocus condition="!String.IsEmpty(Container($PARAM[id]).ListItem.DBID)">SetProperty(Widget_DBID,$INFO[Container($PARAM[id]).ListItem.DBID],home)</onfocus>
 						<onfocus condition="!String.IsEmpty(Container($PARAM[id]).ListItem.DBType)">SetProperty(Widget_DBType,$INFO[Container($PARAM[id]).ListItem.DBType],home)</onfocus>
 						<onfocus condition="!String.IsEmpty(Container($PARAM[id]).ListItem.Genre)">SetProperty(Widget_Genre,$INFO[Container($PARAM[id]).ListItem.Genre],home)</onfocus>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog" id="1199">
-	<visible>false</visible>
+	<visible>true</visible>
 	<zorder>3</zorder>
 	<controls>
 		<control type="image">
@@ -12,7 +12,7 @@
 		</control>
 		<control type="label">
 			<align>right</align>
-			<label>xx$INFO[Window(home).Property(Infoscreen_Transition)]</label>
+			<label>$INFO[Window(home).Property(URL_Encoded_Title)]</label>
 			<height>200</height>
 		</control>
 	</controls>

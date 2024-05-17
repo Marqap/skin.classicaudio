@@ -50,8 +50,8 @@
 			</control>
 		</control>
 		<control type="grouplist">
-			<width>80%</width>
-			<right>0</right>
+			<left>20%</left>
+			<right>10%</right>
 			<align>bottom</align>
 			<itemgap>0</itemgap>
 			<control type="label">
@@ -101,6 +101,62 @@
 			</control>
 			<control type="label">
 				<label>ContainerPath_10: [COLOR white][B]$INFO[Window(movieinformation).Property(ContainerPath_10)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+		</control>
+		<control type="grouplist">
+			<width>10%</width>
+			<right>0</right>
+			<align>bottom</align>
+			<itemgap>0</itemgap>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_1)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_2)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_3)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_4)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_5)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_6)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_7)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_8)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_9)][/B][/COLOR]</label>
+				<font>Description</font>
+				<height>30</height>
+			</control>
+			<control type="label">
+				<label>[COLOR white][B]$INFO[Window(movieinformation).Property(ContainerType_10)][/B][/COLOR]</label>
 				<font>Description</font>
 				<height>30</height>
 			</control>

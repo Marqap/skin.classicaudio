@@ -27,6 +27,7 @@ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisc
 
 Still to do:
 - infoscreen transition when using tmdbhelper widgets
+-- check tmdb helper click actions for all infoscreen widgets (including episode ones etc)
 -- actor credits action
 -- other actions (inc play episode with tmdb helper)
 -- tmdb helper for play button on infoscreen?
@@ -37,6 +38,7 @@ Still to do:
 - login background
 - Create radio station button
 - PVR
+https://github.com/jurialmunkey/plugin.video.themoviedb.helper/wiki/Replacing-Extended-Info#direct-call-auto
 
 **1.3.8**
 - Updated widget paths with url_encoded strings from script.copacetic.helper to enable xsp filtering when titles have special characters
