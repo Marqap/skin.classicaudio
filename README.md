@@ -24,6 +24,7 @@ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisc
 - Updated more widget paths with URL-encoded strings from script.copacetic.helper
 - Added option to prefer TMDbHelper plugin if it's enabled as the content source for info screen widgets, under Settings > Copacetic > Customisations > Info screens https://github.com/realcopacetic/skin.copacetic/issues/105
 - Fixed bug in window transition animations between home, settings etc to ensure that when background slideshow is the same between two windows, the transition is instantaneous
+- Fixed a bug in how views are displayed when a home widget redirects to a view in videos window https://github.com/realcopacetic/skin.copacetic/issues/167
 
 Still to do:
 - infoscreen transition when using tmdbhelper widgets

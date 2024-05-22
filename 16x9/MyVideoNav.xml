@@ -16,5 +16,21 @@
 		<include content="MyViews_Multiart_Labels" condition="Skin.HasSetting(Multiart_Slideshow)" />
 		<include content="videos_Views" />
 		<include content="MyViews_Menu_and_Scrollbars" />
+		<control type="grouplist">
+			<height>90</height>
+			<width>100%</width>
+			<orientation>horizontal</orientation>
+			<align>center</align>
+			<control type="label">
+				<width min="100" max="300">auto</width>
+				<label>Showcase</label>
+				<visible>$EXP[ShowcaseView_Widget_IsVisible]</visible>
+			</control>
+			<control type="label">
+				<width min="100" max="300">auto</width>
+				<label>Strip</label>
+				<visible>$EXP[StripView_Widget_IsVisible]</visible>
+			</control>
+		</control>
 	</controls>
 </window>
