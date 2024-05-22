@@ -58,13 +58,15 @@
 				<label>ContainerPath_1: [COLOR white][B]$INFO[Window(movieinformation).Property(ContainerPath_1)][/B][/COLOR]</label>
 				<font>Unwatched_Indicator</font>
 				<height>30</height>
-				<autoscroll>true</autoscroll>
+				<scroll>true</scroll>
+				<scrollspeed>200</scrollspeed>
 			</control>
 			<control type="label">
 				<label>ContainerPath_2: [COLOR white][B]$INFO[Window(movieinformation).Property(ContainerPath_2)][/B][/COLOR]</label>
 				<font>Unwatched_Indicator</font>
 				<height>30</height>
-				<autoscroll>true</autoscroll>
+				<scroll>true</scroll>
+				<scrollspeed>200</scrollspeed>
 			</control>
 			<control type="label">
 				<label>ContainerPath_3: [COLOR white][B]$INFO[Window(movieinformation).Property(ContainerPath_3)][/B][/COLOR]</label>

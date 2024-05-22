@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog" id="1199">
-	<visible>true</visible>
+	<visible>false</visible>
 	<zorder>3</zorder>
 	<controls>
 		<control type="image">
@@ -8,7 +8,7 @@
 			<height>200</height>
 			<right>0</right>
 			<texture colordiffuse="pink">views/white_100.png</texture>
-			<visible>Player.HasVideo</visible>
+			<visible>Window.IsVisible(home)</visible>
 		</control>
 		<control type="label">
 			<align>right</align>
