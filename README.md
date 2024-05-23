@@ -2,3 +2,4 @@
 
 **1.0.0** 
 - Initial release
+Discontinued due to new sharing method
